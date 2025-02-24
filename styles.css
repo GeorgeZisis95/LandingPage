@@ -165,6 +165,41 @@ h1 {
     padding: 2% 0;
 }
 
+.another-container {
+    background-color: #FFF;
+    padding: 60px 240px;
+}
+
+.another-container .signup-container {
+    background-color: #3883F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3% 3%;
+    color: #FFF;
+    border-radius: 12px;
+}
+
+.another-container .signup-container .button {
+    background-color: #3883F6;
+    outline: none;
+    border: solid;
+    border-color: #FFF;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 64px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.another-container .signup-container .button:hover {
+    background: #4E92F9;
+}
+
 .footer p {
     color: #E5E7EB;
 }
