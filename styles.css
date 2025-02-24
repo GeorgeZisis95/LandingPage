@@ -11,7 +11,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 50px 0px 100px;
+    padding: 0 10%;
 }
 
 nav .logo {
@@ -44,4 +44,70 @@ nav ul li a {
 nav ul li a:hover {
     color: #1B1B1B;
     background: #E5E7EB;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* min-height: 400px; */
+    background: #1F2937;
+    padding: 5% 10%;
+}
+
+/* .hero {
+    max-width: 1000px;
+    width: 100%;
+} */
+
+.hero h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.hero p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup-button {
+    background-color: #3883F6;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.signup-button:hover {
+    background: #4E92F9;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 600px;
+    background-color: #6E7989;
+}
+
+.image p {
+    color: #E5E7EB;
+}
+
+.container2 {
+    display: flex;
+    min-height: 100vh;
+    background: #FFF;
+    padding: 0px 50px 0px 100px;
 }
