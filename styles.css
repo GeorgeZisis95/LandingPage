@@ -156,3 +156,15 @@ h1 {
 .quote .author {
     font-weight: 700;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
+    padding: 2% 0;
+}
+
+.footer p {
+    color: #E5E7EB;
+}
